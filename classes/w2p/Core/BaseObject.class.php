@@ -1,15 +1,11 @@
 <?php /* $Id$ $URL$ */
 
 /**
- * 	@package web2project
- * 	@subpackage core
- * 	@version $Revision$
- */
-
-/**
  * 	w2p_Core_BaseObject Abstract Class.
  *
  * 	Parent class to all database table derived objects
+ * 
+ *  @package     web2project\core
  * 	@author Andrew Eddie <eddieajau@users.sourceforge.net>
  * 	@abstract
  */
