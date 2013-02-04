@@ -1,4 +1,10 @@
-<?php /* $Id$ $URL$ */
+<?php
+
+/**
+ * @package     web2project\extensions
+ *
+ * @todo        Move the require_once to make this phpdoc readable
+ */
 
 $AppUI = is_object($AppUI) ? $AppUI : new w2p_Core_CAppUI();
 include_once $AppUI->getLibraryClass('xajax/xajax_core/xajax.inc');

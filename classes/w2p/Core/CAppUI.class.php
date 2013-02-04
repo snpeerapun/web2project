@@ -1,6 +1,14 @@
 <?php
 
-// Message No Constants
+/**
+ * The Application User Interface Class.
+ *
+ * @package     web2project\core
+ * @author      Andrew Eddie <eddieajau@users.sourceforge.net>
+ * 
+ * @todo        Move the require_once to make this phpdoc readable
+ */
+
 define('UI_MSG_OK', 1);
 define('UI_MSG_ALERT', 2);
 define('UI_MSG_WARNING', 3);

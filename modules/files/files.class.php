@@ -1,7 +1,7 @@
 <?php /* $Id$ $URL$ */
 
 /**
- * File Class
+ * @package     web2project\modules\optional
  */
 class CFile extends w2p_Core_BaseObject {
 

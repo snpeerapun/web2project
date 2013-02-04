@@ -1,9 +1,7 @@
 <?php /* $Id$ $URL$ */
 
 /**
- * 	@package web2Project
- * 	@subpackage modules
- * 	@version $Revision$
+ * @package     web2project\modules\optional
  */
 class CLink extends w2p_Core_BaseObject
 {
