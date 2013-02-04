@@ -1,7 +1,7 @@
 <?php
 
 /**
- * File Folder Class
+ * @package     web2project\modules\optional
  */
 class CFile_Folder extends w2p_Core_BaseObject {
 	/**
