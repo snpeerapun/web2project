@@ -1,9 +1,9 @@
 <?php /* $Id$ $URL$ */
 
 /**
- *	@package web2project
- *	@subpackage core
- *	@version $Revision$
+ * @package     web2project\core
+ * 
+ * @todo        Move the require_once to make this phpdoc readable
  */
 
 require_once W2P_BASE_DIR . '/lib/adodb/adodb.inc.php';

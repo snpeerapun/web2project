@@ -7,6 +7,10 @@
  *
  *  As of v3.0, this class has moved from the Calendar module to its own structure.
  *
+ * @package     web2project\output
+ * @author      D. Keith Casey, Jr. <caseydk@users.sourceforge.net>
+ * 
+ * @todo        Move the require_once to make this phpdoc readable
  */
 
 $AppUI = is_object($AppUI) ? $AppUI : new w2p_Core_CAppUI();

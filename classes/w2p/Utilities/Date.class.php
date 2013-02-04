@@ -1,8 +1,9 @@
 <?php /* $Id$ $URL$ */
 
 /**
- * @package web2project
- * @subpackage utilites
+ * @package     web2project\utilities
+ *
+ * @todo        Move the require_once to make this phpdoc readable
  */
 
 $AppUI = is_object($AppUI) ? $AppUI : new w2p_Core_CAppUI();

@@ -18,6 +18,10 @@ include_once $AppUI->getLibraryClass('phpgacl/gacl_api.class');
  * not so for w2P, which tends to require reverse lookups rather than
  * just forward ones (i.e. looking up who is allowed to do x, rather
  * than is x allowed to do y).
+ *
+ * @package     web2project\extensions
+ *
+ * @todo        Move the require_once to make this phpdoc readable
  */
 class w2p_Extensions_Permissions extends gacl_api
 {

@@ -4,11 +4,6 @@ $AppUI = is_object($AppUI) ? $AppUI : new w2p_Core_CAppUI();
 require_once $AppUI->getLibraryClass('PHPMailer/class.phpmailer');
 
 /**
- *    @package web2project
- *    @subpackage utilities
- */
-
-/**
  *    This class encapsulates the PHP mail() function.
  *
  *    @version    1.0
@@ -29,9 +24,13 @@ require_once $AppUI->getLibraryClass('PHPMailer/class.phpmailer');
  *    $m->Send();    // send the mail
  *    echo "the mail below has been sent:<br><pre>", $m->Get(), "</pre>";
  *    </code>
- *    @author    Leo West - lwest@free.fr
- *    @author    Emiliano Gabrielli - emiliano.gabrielli@dearchitettura.com
- *    @author    Pedro Azevedo - pedroa@web2project.net
+ *
+ * @package     web2project\utilities
+ * @author      Leo West - lwest@free.fr
+ * @author      Emiliano Gabrielli - emiliano.gabrielli@dearchitettura.com
+ * @author      Pedro Azevedo - pedroa@web2project.net
+ *
+ * @todo        Move the require_once to make this phpdoc readable
  */
 class w2p_Utilities_Mail extends PHPMailer
 {
